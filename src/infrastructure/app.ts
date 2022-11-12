@@ -1,27 +1,21 @@
 import express from 'express';
 import * as http from 'http';
-import path from "path";
 
 import * as winston from 'winston';
 import * as expressWinston from 'express-winston';
 import cors from 'cors';
 import { debug } from 'debug';
-
 import { CommonRoutesConfig } from '../adapters/apis/routes/common.routes.config';
-
-import apiConfig from './config/api.config';
 
 
 const app: express.Application = express();
 const server: http.Server = http.createServer(app);
-const port = apiConfig.port;
+const port = 8000;
 const routes: CommonRoutesConfig[] = [];
 const debugLog: debug.IDebugger = debug('app');
 
 app.use(express.json());
-app.use(express.urlencoded());
 app.use(cors());
-app.use('/static', express.static(path.resolve('uploads')));
 
 const loggerOptions: expressWinston.LoggerOptions = {
     transports: [new winston.transports.Console()],
@@ -50,4 +44,4 @@ server.listen(port, () => {
     console.log(runningMessage);
 });
 
-export default app;
+export default app
