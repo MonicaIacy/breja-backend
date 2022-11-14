@@ -5,9 +5,9 @@ import * as winston from 'winston';
 import * as expressWinston from 'express-winston';
 import cors from 'cors';
 import { debug } from 'debug';
-import { CommonRoutesConfig } from '../adapters/apis/routes/common.routes.config';
-import { ProductsRoutes } from '../adapters/apis/routes/products.routes.config';
-import apiConfig from './config/api.config';
+import { CommonRoutesConfig } from '../../../adapters/apis/routes/common.routes.config';
+import { ProductsRoutes } from '../../../adapters/apis/routes/products.routes.config';
+import apiConfig from '../../config/api.config';
 
 
 const app: express.Application = express();
