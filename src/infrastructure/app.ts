@@ -6,11 +6,13 @@ import * as expressWinston from 'express-winston';
 import cors from 'cors';
 import { debug } from 'debug';
 import { CommonRoutesConfig } from '../adapters/apis/routes/common.routes.config';
+import { ProductsRoutes } from '../adapters/apis/routes/products.routes.config';
+import apiConfig from './config/api.config';
 
 
 const app: express.Application = express();
 const server: http.Server = http.createServer(app);
-const port = 8000;
+const port = apiConfig.port;
 const routes: CommonRoutesConfig[] = [];
 const debugLog: debug.IDebugger = debug('app');
 
@@ -31,6 +33,8 @@ if(!process.env.DEBUG) {
 }
 
 app.use(expressWinston.logger(loggerOptions));
+
+routes.push(new ProductsRoutes(app))
 
 const runningMessage = `Servidor rodando na porta ${port}`;
 app.get('/', (req: express.Request, res: express.Response) => {

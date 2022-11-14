@@ -12,7 +12,7 @@ export default MysqlDatabase.getInstance().createModel("products", {
   style: Sequelize.DataTypes.STRING,
   ibu: Sequelize.DataTypes.INTEGER,
   color: Sequelize.DataTypes.STRING,
-  teor: Sequelize.DataTypes.FLOAT,
+  alcoholContent: Sequelize.DataTypes.FLOAT,
   temperature: Sequelize.DataTypes.STRING,
   price: Sequelize.DataTypes.FLOAT,
   inventory: Sequelize.DataTypes.BOOLEAN,
