@@ -9,7 +9,7 @@ export class ViaCep implements Cep {
 
       if (responseCep.status != 200) return
 
-      const dataCep = await responseCep.json()
+      const dataCep: any = await responseCep.json()
 
       if ("erro" in dataCep) return
 
