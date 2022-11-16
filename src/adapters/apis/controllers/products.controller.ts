@@ -12,4 +12,4 @@ class ProductsController {
   }
 }
 
-export default new ProductsController
+export default new ProductsController();
