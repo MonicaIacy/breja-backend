@@ -8,6 +8,7 @@ import { debug } from 'debug';
 import { CommonRoutesConfig } from '../../../adapters/apis/routes/common.routes.config';
 import { ProductsRoutes } from '../../../adapters/apis/routes/products.routes.config';
 import apiConfig from '../../config/api.config';
+import { AddressesRoutes } from '../../../adapters/apis/routes/addresses.routes.config';
 
 
 const app: express.Application = express();
@@ -35,6 +36,8 @@ if(!process.env.DEBUG) {
 app.use(expressWinston.logger(loggerOptions));
 
 routes.push(new ProductsRoutes(app))
+routes.push(new AddressesRoutes(app))
+
 
 const runningMessage = `Servidor rodando na porta ${port}`;
 app.get('/', (req: express.Request, res: express.Response) => {
