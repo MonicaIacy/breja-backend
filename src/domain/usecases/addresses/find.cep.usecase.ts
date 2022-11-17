@@ -1,4 +1,4 @@
-import { IAddressEntity } from "../../entities/users/address.entity";
+//import { IAddressEntity } from "../../entities/users/address.entity";
 import { IUseCase } from "../usecase.interface"
 import { CepFactory } from "../../../adapters/connectors/cepfactory.api";
 import { ViaCepFactory } from "../../../infrastructure/apis/cep/viacepfactory.api";
@@ -13,7 +13,7 @@ export class FindCepUseCase implements IUseCase {
 
     async execute(data: IUserEntity): Promise<IUserEntity | undefined> {
       try {
-        data.endereco = await this._viaCep.preencheEndereco(data.cep);
+        data.endereco = await this._viaCep.preencheEndereco(data.cep!);
         
       } catch (error) {
         console.log(error)

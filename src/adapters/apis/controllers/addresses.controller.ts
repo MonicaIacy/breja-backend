@@ -1,16 +1,12 @@
-import express from 'express'
-import findCepUsecase from '../../../domain/usecases/addresses/find.cep.usecase'
-import {IUserEntity} from '../../../domain/entities/users/user.entity'
-
+import express from "express"
+import findCepUsecase from "../../../domain/usecases/addresses/find.cep.usecase"
 
 class AddressesController {
-    async findCep(req: express.Request, res: express.Response) {
-        console.log('kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK')
+  async findCep(req: express.Request, res: express.Response) {
+    console.log(req)
+    const endereco = await findCepUsecase.execute(req.params)
+    res.status(200).send(endereco)
+  }
+}
 
-        console.log(req)
-        const endereco = await findCepUsecase.execute(req.body);
-        res.status(201).send(endereco);
-    }
-    }
-  
- export default new AddressesController();
+export default new AddressesController()
