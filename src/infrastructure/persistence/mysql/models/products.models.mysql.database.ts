@@ -7,13 +7,10 @@ export default MysqlDatabase.getInstance().createModel("products", {
     primaryKey: true,
     autoIncrement: true,
   },
-  name: Sequelize.DataTypes.STRING,
+  title: Sequelize.DataTypes.STRING,
   description: Sequelize.DataTypes.STRING,
-  style: Sequelize.DataTypes.STRING,
-  ibu: Sequelize.DataTypes.INTEGER,
-  color: Sequelize.DataTypes.STRING,
-  alcoholContent: Sequelize.DataTypes.FLOAT,
-  temperature: Sequelize.DataTypes.STRING,
-  price: Sequelize.DataTypes.FLOAT,
+  details: Sequelize.DataTypes.STRING,
+  price: Sequelize.DataTypes.STRING,
   inventory: Sequelize.DataTypes.BOOLEAN,
+  image: Sequelize.DataTypes.STRING
 })

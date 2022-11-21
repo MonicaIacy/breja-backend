@@ -1,12 +1,9 @@
 export interface IProductEntity {
   productId?: number,
-  name: string,
+  title: string,
   description: string,
-  style: string,
-  ibu: number,
-  color: string,
-  alcoholContent: number,
-  temperature: string,
+  details: string,
   price: number,
-  inventory: boolean
+  inventory: boolean,
+  image: string
 }
