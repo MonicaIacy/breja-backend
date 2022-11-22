@@ -1,5 +1,5 @@
 
-import { IAddressEntity } from './address.entity';
+import IAddressEntity from './address.entity';
 
 export interface IUserEntity {
     endereco?: IAddressEntity,

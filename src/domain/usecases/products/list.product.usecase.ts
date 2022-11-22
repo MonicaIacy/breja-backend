@@ -1,5 +1,5 @@
 import { IUseCase } from "../usecase.interface"
-import { IProductEntity } from "../../entities/products/products.entity"
+import IProductEntity from "../../entities/products/products.entity"
 import { IProductRepository } from "../../repositories/products.respository.interface"
 import ProductsRepository from "../../../adapters/repositories/products.repository"
 

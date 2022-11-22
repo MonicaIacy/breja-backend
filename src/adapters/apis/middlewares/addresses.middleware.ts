@@ -8,7 +8,7 @@ const log: debug.IDebugger = debug('app: addresses-middleware')
 
 class AddressesMiddleware {
   async validateRequiredAddressParams(req: express.Request, res: express.Response, next: express.NextFunction) {
-    if (req.params.length == '8') {
+    if (req.params.cep.length == 8) {
       next()
     } else {
       res.status(400).send({ error: `Preencha o cep corretamente.` })
