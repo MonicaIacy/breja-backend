@@ -1,5 +1,6 @@
 import express from 'express'
 import AddressesController from '../controllers/addresses.controller'
+import addressesMiddleware from '../middlewares/addresses.middleware'
 
 
 import { CommonRoutesConfig } from "./common.routes.config"
