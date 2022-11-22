@@ -10,7 +10,7 @@ export default {
         details: "IBU 56 - ABV 5,6% - EBC 6,6",
         price: "25,00",
         inventory: true,
-        image: "https://asset.cloudinary.com/dz4gujotu/948b46c8159264d4487e1b70da6105f0",
+        image: "https://res.cloudinary.com/dmcfe589p/image/upload/v1669116023/cervejaria/IPA_xedaxk.jpg",
       },
       {
         productId: 2,
@@ -19,7 +19,7 @@ export default {
         details: "IBU 14 - ABV 4,8% - EBC 6",
         price: "20,00",
         inventory: true,
-        image: "https://asset.cloudinary.com/dz4gujotu/0d4a62154ef0618bfa1873f32fca0af7",
+        image: "https://res.cloudinary.com/dmcfe589p/image/upload/v1669116023/cervejaria/LAGER_zdam2b.jpg",
       },
       {
         productId: 3,
@@ -28,7 +28,7 @@ export default {
         details: "IBU 45 - ABV 8% - EBC 55",
         price: "25,00",
         inventory: true,
-        image: "https://asset.cloudinary.com/dz4gujotu/419fa03f32fd2be692644429c97233fd",
+        image: "https://res.cloudinary.com/dmcfe589p/image/upload/v1669116023/cervejaria/STOUT_gtkkqb.jpg",
       },
       {
         productId: 4,
@@ -38,7 +38,7 @@ export default {
         details: "IBU 56 - ABV 5,6% - EBC 6,6",
         price: "29,00",
         inventory: true,
-        image: "https://asset.cloudinary.com/dz4gujotu/43995a38805fa59a17d9670597b7d426",
+        image: "https://res.cloudinary.com/dmcfe589p/image/upload/v1669116023/cervejaria/PORTER_qd8i5y.jpg",
       },
       {
         productId: 5,
@@ -47,7 +47,7 @@ export default {
         details: "IBU 9 - ABV 5,5% - EBC 7,2",
         price: "25,00",
         inventory: true,
-        image: "https://asset.cloudinary.com/dz4gujotu/af57b2f1940157c7d820cdaa715d0827",
+        image: "https://res.cloudinary.com/dmcfe589p/image/upload/v1669115157/cervejaria/Cerveja_Arte_2_rotus0.jpg",
       },
       {
         productId: 6,
@@ -57,7 +57,7 @@ export default {
         details: "IBU 4,2 - ABV 5% - EBC 6",
         price: "29,00",
         inventory: true,
-        image: "https://asset.cloudinary.com/dz4gujotu/a9d0935234549a65474e4784af73c499",
+        image: "https://res.cloudinary.com/dmcfe589p/image/upload/v1669116023/cervejaria/WITBIER_fbdqoc.jpg",
       },
     ])
   },
