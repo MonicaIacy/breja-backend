@@ -1,4 +1,4 @@
-export interface IAddressEntity {
+export default interface IAddressEntity {
   cep: string,
   logradouro?: string,
   complemento?: string,

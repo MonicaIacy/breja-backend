@@ -1,7 +1,7 @@
 import * as Sequelize from "sequelize"
 
 import { IDatabaseModel } from "../../infrastructure/persistence/databasemodel.interface"
-import { IProductEntity } from "../../domain/entities/products/products.entity"
+import  IProductEntity  from "../../domain/entities/products/products.entity"
 import { MysqlDatabase } from "../../infrastructure/persistence/mysql/mysql.database"
 import { IProductRepository } from "../../domain/repositories/products.respository.interface"
 import productsModel from "../../infrastructure/persistence/mysql/models/products.models.mysql.database"

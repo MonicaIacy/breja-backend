@@ -1,4 +1,4 @@
-export interface IProductEntity {
+export default interface IProductEntity {
   productId?: number,
   title: string,
   description: string,
