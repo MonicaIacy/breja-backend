@@ -7,7 +7,6 @@ export interface IPurchaseEntity {
     address:IAddressEntity
     telephone: number
     product: IProductEntity[]
-    amount: number[]
-    total: number
+    cartTotalAmount: number
 
 }
