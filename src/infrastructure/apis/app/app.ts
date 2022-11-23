@@ -8,7 +8,7 @@ import { debug } from "debug"
 import { CommonRoutesConfig } from "../../../adapters/apis/routes/common.routes.config"
 import { ProductsRoutes } from "../../../adapters/apis/routes/products.routes.config"
 import { AddressesRoutes } from "../../../adapters/apis/routes/addresses.routes.config"
-import { PurchasesRoutes } from "../../../adapters/apis/routes/purchases.routes.config"
+// import { PurchasesRoutes } from "../../../adapters/apis/routes/purchases.routes.config"
 import apiConfig from "../../config/api.config"
 
 const app: express.Application = express()
@@ -37,7 +37,7 @@ app.use(expressWinston.logger(loggerOptions))
 
 routes.push(new ProductsRoutes(app))
 routes.push(new AddressesRoutes(app))
-routes.push(new PurchasesRoutes(app))
+// routes.push(new PurchasesRoutes(app))
 
 const runningMessage = `Servidor rodando na porta ${port}`
 app.get("/", (req: express.Request, res: express.Response) => {
