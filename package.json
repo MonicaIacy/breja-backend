@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "start": "node --unhandled-rejections=strict -r dotenv/config ./dist/infrastructure/apis/app/app.js",
     "migrations": "tsc && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed:all",
     "debug": "tsc && set DEBUG=* && npm run start",
