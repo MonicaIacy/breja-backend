@@ -6,5 +6,4 @@ export default interface IProductEntity {
   price: number,
   inventory: boolean,
   image: string
-  cartQuantity?: number
 }
