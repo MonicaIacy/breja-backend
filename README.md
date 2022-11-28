@@ -6,7 +6,7 @@
 
 
 Projeto desenvolvido durante  **o bootCamp da Gama**.
-O Breja é um projeto de e-commerce, onde o cliente tem a opção de selecionar seus produtos, já com seu endereço previamente preenchido, e assim ser redirecionado para o whatsApp para um atendimento diferenciado, humanizado e personalizado.
+O Breja é um projeto de e-commerce, onde o cliente tem a opção de selecionar seus produtos, preencher seu endereço automaticamente, e assim ser redirecionado para o whatsApp para um atendimento humanizado e personalizado.
 
 
 
@@ -16,7 +16,9 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## Como rodar o Back End
+API disponível em: https://breja-backend-production.up.railway.app/
+
+## Como rodar esse repositório
 
 ```bash
 # Clone este repositório:
