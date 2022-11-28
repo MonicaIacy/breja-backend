@@ -76,6 +76,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
     </tr>
   </table>
 
-  https://drive.google.com/file/d/1vZl4IXGwkdZ9ZJjHaz53RXOrgPgM_tu0/view?usp=share_link
 
 
