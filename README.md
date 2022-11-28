@@ -63,7 +63,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[MYSQL](https://www.mysql.com//)**
 -   **[JEST](https://jestjs.io/pt-BR/)**
 -   **[Sequelize](https://www.npmjs.com/package/sequelize)**
--  
 
 # 👨‍💻 💜Contribuidores👏  
 
@@ -71,10 +70,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/monicaiacy/"><img style="border-radius: 50%;" src="https://ibb.co/HNyJ7YV" width="100px;" alt=""/><br /><sub><b>Mônica Mendes</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Monica">👨‍🚀</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/vinicius-andrade-565a88242/"><img style="border-radius: 50%;" src="https://ibb.co/mH89xhd" width="100px;" alt=""/><br /><sub><b>Vinicius Andrade</b></sub></a><br /><a href="https://www.linkedin.com/in/vinicius-andrade-565a88242/" title="Vinicius Andrade">🚀</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/tiagokochem/"><img style="border-radius: 50%;" src="https://ibb.co/tQ9JMZb" width="100px;" alt=""/><br /><sub><b>Tiago kochem</b></sub></a><br /><a href="https://www.linkedin.com/in/tiagokochem/" title="Tiago Kochem">🚀</a></td>  
+    <td align="center"><a href="https://www.linkedin.com/in/monicaiacy/"><img style="border-radius: 50%;" src="https://asset.cloudinary.com/dz4gujotu/3a13652c6a3b79eed23180ea316670d8" width="100px;" alt=""/><br /><sub><b>Mônica Mendes</b></sub></a><br /><a href="https://www.linkedin.com/in/monicaiacy/" title="Monica">🚀</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/vinicius-andrade-565a88242/"><img style="border-radius: 50%;" src="https://asset.cloudinary.com/dz4gujotu/a97653553d489fb97dee076cbde128ac" width="100px;" alt=""/><br /><sub><b>Vinicius Andrade</b></sub></a><br /><a href="https://www.linkedin.com/in/vinicius-andrade-565a88242/" title="Vinicius Andrade">🚀</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/tiagokochem/"><img style="border-radius: 50%;" src="https://asset.cloudinary.com/dz4gujotu/7e6fbff15e7a8df79631eb8fae083274" width="100px;" alt=""/><br /><sub><b>Tiago kochem</b></sub></a><br /><a href="https://www.linkedin.com/in/tiagokochem/" title="Tiago Kochem">🚀</a></td>  
     </tr>
   </table>
+
+  https://drive.google.com/file/d/1vZl4IXGwkdZ9ZJjHaz53RXOrgPgM_tu0/view?usp=share_link
 
 
